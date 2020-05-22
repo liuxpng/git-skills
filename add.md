@@ -2,10 +2,15 @@
 
 ## 常见选项
 
-- \-u
+- \-u 将已纳入版本控制的文件加入暂存区
 
 ## 常见用法
 
-- git add -u
-- git add <file_name>
-- git add .
+- git add -u 将已纳入版本控制的文件加入暂存区
+- git add <file_name> 将文件<file_name>加入暂存区
+- git add . 将当前目录下所有文件加入暂存区
+
+## 说明
+
+- \-u 选项不会将未纳入版本控制的文件加入暂存区；
+- 使用 git add <file_name> 可以一次将多个文件加入暂存区，只需在后面罗列文件即可；
