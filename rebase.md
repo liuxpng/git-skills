@@ -12,5 +12,5 @@
 ## 说明
 
 - pick 抓取commit对象，直接使用，不修改任何内容
-- reward 抓取commit对象，使用该对象，但修改其comment
+- reword 抓取commit对象，使用该对象，但修改其comment
 - squash 抓取commit对象，将其合并进前一个commit中
