@@ -2,12 +2,12 @@
 
 ## 常见选项
 
-- \-i
+- \-i 以交互式的方式执行 rebase
 
 ## 常见用法
 
-- git rebase -i <commit>
-- git rebase <commit>
+- git rebase -i <commit> 在指定提交的基础上以交互式的方式进行 rebase
+- git rebase <commit> 在当前分支以指定的提交为基础进行 rebase
 
 ## 说明
 
